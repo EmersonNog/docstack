@@ -34,7 +34,7 @@ const ReportPhoto = () => {
     setCurrentPage((prev) => Math.min(prev + 1, totalPages));
 
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 py-4 bg-gradient-to-br from-[#e8f2ff] via-[#e9faff] to-[#edf6ff]">
+    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center px-6 py-4 lg:pl-84 bg-gradient-to-br from-[#e8f2ff] via-[#e9faff] to-[#edf6ff]">
       <div className="w-full lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left max-w-xl">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-6 leading-tight">
           Conheça o DocStack <br /> gerador de relatórios <br />
